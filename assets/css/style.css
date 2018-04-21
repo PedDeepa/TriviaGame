@@ -1,0 +1,88 @@
+body {
+    background-image: url("../images/bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: black;
+}
+
+.jumbotron {
+  box-sizing: border-box;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.main-button-container {
+  margin-top: 175px;
+  max-width: 610px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.timer-p {
+  margin-top: 40px;
+}
+
+.answer:hover {
+  background: #777;
+}
+
+.answer {
+  padding-top: 7px;
+  height: 45px;
+  width: 100%;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  padding-left: 14px;
+  background-color: white;
+  border-radius: 4px;
+  text-align: left;
+  margin-bottom: 5px;
+}
+.text-center{
+  font-size: 25px;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.bold{
+  font-weight: bold;
+}
+
+.answer:focus{
+  background-color: none;
+}
+
+.img-right {
+  margin-top: 40px;
+  height: 25em;
+  width: 25em;
+}
+
+.first-answer {
+  margin-top: 40px;
+}
+
+.start-button {
+  padding: .25em 7em .25em 7em;
+  background-color: blue;
+  border: none;
+}
+
+.start-button:hover {
+  background-color: #FF1200;
+}
+
+.reset-button {
+  padding: .25em 7em .25em 7em;
+  background-color: rgb(28, 0, 155);
+  border: none;
+}
+
+.reset-button:hover {
+  background-color: #FF1200;
+}
+
+.summary-correct {
+  margin-top: 40px;
+}
